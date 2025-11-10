@@ -67,7 +67,6 @@ void blur(int height, int width, RGBTRIPLE image[height][width])
 
         for (int j = 0; j < width; j++)
         {
-            // cvbtuy790===
             pixel_count = avg_red = avg_green = avg_blue = 0;
             for (int k = i - KERNEL_SIZE; k <= i + KERNEL_SIZE; k++)
             {
